@@ -18,3 +18,8 @@ Conversational courtesies will be encouraged, including active listening, sharin
 Enforcement of team rules will involve open conversation followed by necessary actions, with oversight from the Chief Technology Officer (CTO). If a team member consistently fails to adhere to the established guidelines or fulfill their responsibilities, the matter will be addressed through a conversation to understand the underlying issues and find potential solutions. If necessary, the CTO may intervene to provide guidance or implement consequences to ensure accountability and maintain team effectiveness.
 ## Feedback
 Feedback preferences among individuals will be respected, with consideration given to how each member prefers to give and receive feedback. Some may prefer direct and constructive feedback, while others may prefer a more collaborative or gentle approach. Understanding and respecting these preferences will contribute to a positive and supportive team environment where feedback can be effectively communicated and received.
+![Signature.](https://github.com/Cmoc10/305-Project/blob/main/src/MichaelMSignature.png)
+![Signature.](https://github.com/Cmoc10/305-Project/blob/main/src/Joseph%20May%20Signature.jpg)
+![Signature.](https://github.com/Cmoc10/305-Project/blob/main/src/Jeshua%20signature.jpg)
+![Signature.](https://github.com/Cmoc10/305-Project/blob/main/src/IMG_2535.jpg)
+![Signature.](https://github.com/Cmoc10/305-Project/blob/main/src/20240226_130531.jpg)
