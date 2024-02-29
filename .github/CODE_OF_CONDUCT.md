@@ -10,6 +10,9 @@ Communication and sharing of information will primarily occur through a text gro
 Meeting times will be decided based on the availability of all members, with a suggested time of 1:00 PM on Fridays via Zoom.
 ## Agenda and Minutes
 Jeshua will be designated as the notetaker, and meeting agendas and minutes/notes will be shared with all members after each meeting.
+## No Phone Policy
+
+To maintain a focused and productive environment, we have implemented a No Phone Policy. The use of mobile phones, including but not limited to calling, texting, browsing, or using social media, is strictly prohibited during working hours in all work areas. Exceptions may be made for emergency situations or essential business-related communications, subject to approval by scrum master. All mobile phones must be kept on silent or vibrate mode to avoid disturbing others. Ringing phones in work areas are considered a violation of this policy. Mobile phones are not permitted in meetings. They should be left outside the meeting room or kept in silent mode if brought in for emergency purposes. Failure to adhere to this No Phone Policy may result in disciplinary action. By adhering to this No Phone Policy, we aim to foster a more productive, safe, and respectful work environment for all.
 ## Promptness
 Lateness to meetings is acceptable if communicated beforehand, but punctuality is encouraged to ensure productive use of everyone's time.
 ## Conversational Courtesies
