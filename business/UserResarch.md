@@ -13,3 +13,11 @@
     over 50% of the responses portray the importance of monitoring ocean wave height and tide
   - Team Action:
     We will be able to access APIS that contain this information and use them in out app
+- Observation 5:
+  - Observation Statement:
+    Users would like to be able to see the weather at beaches
+  - Supporting Data:
+    62% of participants do check the weather when going to the beach
+    Highly requested feature in the “What features would you like a ocean weather app?” question
+  - Team Action:
+    Create a weather display for tracked beaches, using an API call to a weather service
