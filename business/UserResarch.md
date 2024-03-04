@@ -13,6 +13,13 @@
     over 50% of the responses portray the importance of monitoring ocean wave height and tide
   - Team Action:
     We will be able to access APIS that contain this information and use them in out app
+- Observation 3:
+  - Observations Statement:
+    People want easy access and simplicity
+  - Supporting Data:
+    Over 60% of responses said their go to forecast checker is the default weather app
+  - Team Action:
+    We will incorporate a way for the app to be simple and user friendly
 - Observation 4:
   - Observation Statement:
     Many people frequent to the beach
