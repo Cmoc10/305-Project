@@ -17,7 +17,7 @@
   - Observation Statement:
     Users would like to be able to see the weather at beaches
   - Supporting Data:
-    62% of participants do check the weather when going to the beach
+    62% of participants do check the weather when going to the beach. 
     Highly requested feature in the “What features would you like a ocean weather app?” question
   - Team Action:
     Create a weather display for tracked beaches, using an API call to a weather service
