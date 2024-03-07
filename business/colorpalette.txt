@@ -1,0 +1,8 @@
+#Wavy App Color Palette
+
+Sunset Orange: #FF7043
+Palm Green: #2E7D32
+Ocean Blue: #0277BD
+Beach Yellow: #FFCA28
+Wave Turquoise: #26C6DA
+White: #000000
