@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "beaches": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "Description": {"type": "string"},
+          "Image": {"type": "string"},
+          "Location": {"type": "string"},
+          "Name": {"type": "string"}
+        },
+        "required": ["Description", "Image", "Location", "Name"]
+      }
+    },
+    "reports": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "BeachID": {"type": "string"},
+          "ReportDescription": {"type": "string"},
+          "ReportType": {"type": "string"},
+          "UserID": {"type": "string"}
+        },
+        "required": ["BeachID", "ReportDescription", "ReportType", "UserID"]
+      }
+    },
+    "users": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "Email": {"type": "string"},
+          "Name": {"type": "string"}
+        },
+        "required": ["Email", "Name"]
+      }
+    }
+  },
+  "required": ["beaches", "reports", "users"]
+}
