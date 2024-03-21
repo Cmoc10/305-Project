@@ -10,3 +10,8 @@ Now you have your hypothesis, the next is to plan how you are going to measure y
 Experiment - Detail out the experiment setup that you will use to test your hypothesis using Firebase capabilities. Describe the audiences – will all users be able to view the experiment? Or you will only allocate x% of your user base to the experiment? Lay out the details with the rationale behind this decision. Describe the tracking using Firebase Analytics. With your success metrics, what tracking needs to be set up? 
 
 Variations - In this section, describe what variations you would like to test. Layout the design work related and add diagrams, mockups and designs related to the confirmed variation that you’d like to test.
+
+A/B Test Name: Ad Banner Placement (Joe)
+User Story Number: ..
+Metric (from the HEART grid): User Engagement
+Hypothesis: it will affect engagement 
