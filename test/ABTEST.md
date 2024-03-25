@@ -25,3 +25,12 @@ Experiment:
   Duration - 4 Weeks
   Variations - Two versions of Homepage using A/B support in firebase
   Success Metrics - One homepage group should have a higher DAU
+
+A/B Test Name: Wavy Notification Frequency Adjustment (Carlos)
+User Story Number:
+Metric: Retention
+Hypothesis: The hypothesis for this A/B test is that adjusting the frequency of weather alert notifications in the Beach Weather App will impact user retention and churn rate. The problem identified is that users might be overwhelmed by too frequent notifications, leading to app uninstallation, or they might feel underinformed with too few notifications, leading to disengagement. The hypothesis is that finding an optimal notification frequency will balance user engagement and annoyance, thereby reducing churn rate and improving retention.
+Experiment: The experiment is designed to evaluate the impact of varying notification frequencies on user engagement and retention. It involves three groups: a control group (Group A) that will receive notifications once per day, a treatment group (Group B) that will receive notifications twice per day, and another treatment group (Group C) that will receive notifications every other day. The experiment will be conducted using Firebase A/B Testing capabilities, with users randomly assigned to one of the three groups in equal proportions. The duration of the experiment is set for 6 weeks to ensure the collection of sufficient data for analysis. To measure the success of the experiment, Firebase Analytics will be used to track key metrics, including the retention rate (the percentage of users who return to the app within 7 days of receiving a notification), the churn rate (the percentage of users who uninstall the app or do not open it for 7 consecutive days after receiving a notification), and notification engagement (the percentage of users who open the app directly from a weather alert notification). These metrics will provide insights into how different notification frequencies affect user behavior and app interaction.
+Variations: For treatment groups B and C, the notification frequency will be adjusted as described. The content of the notifications will remain consistent across all groups to ensure that the only variable being tested is the frequency of notifications.
+
+
