@@ -1,4 +1,5 @@
 {
+    "id": "012ff78c-c118-4925-b1dd-f8863aeb5001",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -182,13 +183,13 @@
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 47,
-                "Width": 313,
+                "Height": 100,
+                "Width": 342,
                 "Visible": true,
-                "X": 47,
-                "Y": 371,
-                "RelativeX": 47,
-                "RelativeY": 371,
+                "X": 20,
+                "Y": 320,
+                "RelativeX": 20,
+                "RelativeY": 320,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -229,7 +230,7 @@
                 },
                 "ParentId": "012ff78c-c118-4925-b1dd-f8863aeb5001",
                 "position": "absolute",
-                "edgeOffsets": 371,
+                "edgeOffsets": 320.66668701171875,
                 "children": "Partly Cloudy"
             },
             "children": [],
@@ -328,7 +329,6 @@
             "name": "Logo"
         }
     ],
-    "id": "012ff78c-c118-4925-b1dd-f8863aeb5001",
     "thunkableVersion": 448,
     "name": "Weather_Screen"
 }
