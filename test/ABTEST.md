@@ -17,7 +17,7 @@ Metric (from the HEART grid): User Engagement
 Hypothesis: it will affect engagement 
 
 A/B Test Name: Homepage Engagement Optimization (Michael)
-User Story Number: ..
+User Story Number: US5
 Metric: Engagement (specifically Daily Active Users - DAU)
 Hypothesis: enhancing the visibility and attractiveness of real-time beach conditions on the app’s homepage, we can improve user engagement, resulting in an increase in daily active users (DAU)
 Experiment:
