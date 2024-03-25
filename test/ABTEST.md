@@ -15,3 +15,13 @@ A/B Test Name: Ad Banner Placement (Joe)
 User Story Number: ..
 Metric (from the HEART grid): User Engagement
 Hypothesis: it will affect engagement 
+
+A/B Test Name: Homepage Engagement Optimization (Michael)
+User Story Number: ..
+Metric: Engagement (specifically Daily Active Users - DAU)
+Hypothesis: enhancing the visibility and attractiveness of real-time beach conditions on the app’s homepage, we can improve user engagement, resulting in an increase in daily active users (DAU)
+Experiment:
+  Audience - All Users, Split 50/50 for each variation
+  Duration - 4 Weeks
+  Variations - Two versions of Homepage using A/B support in firebase
+  Success Metrics - One homepage group should have a higher DAU
