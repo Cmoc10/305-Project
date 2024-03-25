@@ -34,3 +34,26 @@ Experiment: The experiment is designed to evaluate the impact of varying notific
 Variations: For treatment groups B and C, the notification frequency will be adjusted as described. The content of the notifications will remain consistent across all groups to ensure that the only variable being tested is the frequency of notifications.
 
 
+A/B Test Name: Wavy App - Feature Page Design Optimization
+
+User Story Number: 4
+
+Metric (from the HEART grid): Click Through Rate
+
+Hypothesis: 
+Problem: The current design of the "Main" page in the Wavy app is causing a high bounce rate, with users not scrolling past the initial section. This suggests that important beach-related features are not being adequately highlighted or accessed by visitors.
+Impact: Improving the visibility and accessibility of beach-related features can potentially increase user engagement and adoption of the Wavy app.
+
+Hypothesis: By implementing a tab or toggle list design on the "Features" page of the Wavy app, we can condense the content and allow users to selectively explore beach-related features they are interested in, leading to increased engagement and a higher click-through rate.
+
+Experiment:
+Setup: We will allocate 50% of our user base to the experiment group, where they will be exposed to the redesigned "Features" page with the tab or toggle list design. The remaining 50% will serve as the control group and continue to see the original design.
+Audiences: Both new and returning users of the Wavy app will be included in the experiment to ensure a representative sample of beachgoers.
+Tracking: Firebase Analytics will be utilized to track user interactions with the "Features" page in the Wavy app. Specifically, we will track the number of clicks on individual beach-related features and the overall click-through rate for both the control and experiment groups.
+
+Variations:
+Design Variation: 
+- The redesigned "Main" page of the Wavy app will feature a tab or toggle list design to highlight beach-related features.
+- Mockups and designs specific to the Wavy app will be provided to illustrate the proposed variation.
+
+By systematically testing this single variable change in the context of the Wavy app, created by sophomore college students, we aim to accurately measure the impact of the redesigned "Features" page on the click-through rate of beach-related features, providing valuable insights for further optimization efforts.
