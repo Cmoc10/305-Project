@@ -415,13 +415,13 @@
                 "Font": "",
                 "CustomFont": "",
                 "BackgroundColor": "rgba(93, 122, 252, 100)",
-                "Height": 54,
-                "Width": 50,
+                "Height": 60,
+                "Width": 57,
                 "Visible": true,
-                "X": 325,
-                "Y": 150,
-                "RelativeX": 325,
-                "RelativeY": 150,
+                "X": 318,
+                "Y": 158,
+                "RelativeX": 318,
+                "RelativeY": 158,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -452,7 +452,7 @@
                 "Disabled": false,
                 "ParentId": "432941d5-38ac-4192-96eb-5e174ee788a3",
                 "position": "absolute",
-                "edgeOffsets": 150
+                "edgeOffsets": 158
             },
             "children": [],
             "id": "eab25d02-513a-4520-9397-575ef3191c32",
