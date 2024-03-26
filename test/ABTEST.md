@@ -11,10 +11,12 @@ Experiment - Detail out the experiment setup that you will use to test your hypo
 
 Variations - In this section, describe what variations you would like to test. Layout the design work related and add diagrams, mockups and designs related to the confirmed variation that you’d like to test.
 
-A/B Test Name: Ad Banner Placement (Joe)
-User Story Number: ..
-Metric (from the HEART grid): User Engagement
-Hypothesis: it will affect engagement 
+A/B Test Name: Ad Banner Placement
+	User Story Number: US7: Ad placement
+	Metric: DAU/MAU
+	Hypothesis: I believe that releasing two versions of the app, both with different ad banner placements or frequencies and measuring the user engagement over both versions. I believe that if ads are at the top of the page, there will be higher engagement since most of the features of our app will be at the bottom. This will help us maintain user engagement while also having ads to monetize our app. 
+	Experiment- The experiment will entail the release of two separate apps with different ad placement, one with ads near the top and the other with ads near the bottom. This allocation will be to the whole user base as it is important to understand which is better and which is worse in terms of user engagement. The durations will be for 1 month.
+	Variations- The variations would be that one app has ad banners at the top while the other has them at the bottom. 
 
 A/B Test Name: Homepage Engagement Optimization (Michael)
 User Story Number: US6
