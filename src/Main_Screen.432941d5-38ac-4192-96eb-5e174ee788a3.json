@@ -1,5 +1,4 @@
 {
-    "id": "432941d5-38ac-4192-96eb-5e174ee788a3",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -461,6 +460,7 @@
             "name": "Button2"
         }
     ],
+    "id": "432941d5-38ac-4192-96eb-5e174ee788a3",
     "thunkableVersion": 448,
     "name": "Main_Screen"
 }

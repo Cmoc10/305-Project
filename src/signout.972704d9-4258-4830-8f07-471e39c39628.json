@@ -1,5 +1,4 @@
 {
-    "id": "972704d9-4258-4830-8f07-471e39c39628",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -305,6 +304,7 @@
             "name": "Sign Out"
         }
     ],
+    "id": "972704d9-4258-4830-8f07-471e39c39628",
     "thunkableVersion": 444,
     "name": "signout"
 }

@@ -1,5 +1,4 @@
 {
-    "id": "f91a39f3-9312-477c-9b9b-14803449b6ab",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -187,6 +186,7 @@
             "name": "Map2"
         }
     ],
+    "id": "f91a39f3-9312-477c-9b9b-14803449b6ab",
     "thunkableVersion": 448,
     "bindings": null,
     "name": "Directions"

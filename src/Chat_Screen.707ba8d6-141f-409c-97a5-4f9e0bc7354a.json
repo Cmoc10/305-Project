@@ -1,5 +1,4 @@
 {
-    "id": "707ba8d6-141f-409c-97a5-4f9e0bc7354a",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -280,6 +279,7 @@
             "name": "Web_Viewer1"
         }
     ],
+    "id": "707ba8d6-141f-409c-97a5-4f9e0bc7354a",
     "thunkableVersion": 448,
     "name": "Chat_Screen"
 }
