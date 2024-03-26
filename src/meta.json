@@ -287,6 +287,44 @@
                     "scope": "APP",
                     "name": "index",
                     "screenId": "d37357f7-c1c3-46b0-8582-8b79d988ff7d"
+<<<<<<< Updated upstream
+=======
+                },
+                "b4081780-e725-4bbb-b36f-32c039b83afb": {
+                    "scope": "APP",
+                    "name": "WeatherAPIURL",
+                    "screenId": "012ff78c-c118-4925-b1dd-f8863aeb5001"
+                },
+                "9ceece52-f7fe-4258-8696-60808893377b": {
+                    "scope": "APP",
+                    "name": "lat",
+                    "screenId": "012ff78c-c118-4925-b1dd-f8863aeb5001"
+                },
+                "cf6f1b1a-2933-46c6-97b6-1f3e7ebfb933": {
+                    "scope": "APP",
+                    "name": "lon",
+                    "screenId": "012ff78c-c118-4925-b1dd-f8863aeb5001"
+                },
+                "5c585b1b-6637-4139-832b-6e380cf336e2": {
+                    "scope": "APP",
+                    "name": "WeatherAPIKey",
+                    "screenId": "012ff78c-c118-4925-b1dd-f8863aeb5001"
+                },
+                "c18db3c8-b5e8-481b-91a4-e4fb5e4d75bb": {
+                    "scope": "APP",
+                    "name": "lat",
+                    "screenId": "012ff78c-c118-4925-b1dd-f8863aeb5001"
+                },
+                "128ff040-5ab3-46f2-9e4a-67a4715a2007": {
+                    "scope": "STORED",
+                    "name": "Location_Long",
+                    "screenId": "432941d5-38ac-4192-96eb-5e174ee788a3"
+                },
+                "5c0ea35c-d2db-46ad-849c-28b6dac2248e": {
+                    "scope": "STORED",
+                    "name": "Location_Lat",
+                    "screenId": "432941d5-38ac-4192-96eb-5e174ee788a3"
+>>>>>>> Stashed changes
                 }
             },
             "defaultDesignerDevice": "PHONE",
