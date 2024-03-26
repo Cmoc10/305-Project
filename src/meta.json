@@ -4,7 +4,21 @@
             "apiComponents": {
                 "ApiContainer": {
                     "id": "ApiContainer",
-                    "children": []
+                    "children": [
+                        {
+                            "type": "Web API",
+                            "translatedName": "Web API",
+                            "isApi": true,
+                            "reactType": "Web",
+                            "properties": {
+                                "URL": "https://api.openweathermap.org/data/3.0/onecall?"
+                            },
+                            "children": [],
+                            "id": "2afb5742-b575-4ca3-a1fe-bfe9c1a1f7f2",
+                            "thunkableVersion": 450,
+                            "name": "WeatherApi"
+                        }
+                    ]
                 }
             },
             "assets": {
@@ -21,8 +35,8 @@
                     "createdAt": "2024-02-13T22:13:20.789Z",
                     "updatedAt": "2024-02-13T22:13:20.789Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aea2cb1030ae7e111f55bf/projects/65f86d89a1bc6c1ab9ad478a/assets/65f86d89a1bc6c1ab9ad478e?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240319%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240319T211735Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=0dd74cf40636bea1882dd8add165d769c3c7ef8c5fef01ef73df04a8fc075d8b41728402897b508ae8073960841cc4e7fd9beffe6e0adcc5d7ddc7be7d7089957cf0c97cd5b2f6540b627f3707d7badd639208be2462547c7c651ada1146cd811aeab9c20a8931672b1e6147defbea614775202ccb380e9526e92c04aa395f6ce739800d0f30460d7664dbbfac35cd92c1ed3db3d90dff86b1fffae46ef2d2e372d1259ca90be759119b637cbb3beacb0451cef6895c4dddfdcead6ba569b14c8e9a492b8961fb459d7d04a5a95131ea922327f13cbbeb4ec562c10dc4b85f54ca84aa09f8904c9ff514f5e98470a6c6912bcb63dfae9233bfdf19ca205e9e85",
-                    "signedUrlExpirationTime": 1711055855659
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aea2cb1030ae7e111f55bf/projects/65f86d89a1bc6c1ab9ad478a/assets/65f86d89a1bc6c1ab9ad478e?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240325%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240325T165509Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=79485dfe8573f2b5aed838de6c4fb4dece5c8cb282712d90cd93793a1e63fdf5240616721f3d483bd2c35aa92f4976aadc472669e29887342627e5281e5b0d79a25ab86360b2be4800e89ba373f363184b1679fc1c3b2d746a54566beb31bddf19ab70910cfc32fc9c24818dd3d2716320e7fd621d397365a422e8595a02c854ad8e43db4f5982057096c097f7cc8471d8aebc64c65ee54c9d83a62137be9801fb6bf915febcd7c52155be581255e473d55fe838c9eccaac1bba9fa258c7f26e57326eeaefd177eb01171b26adac031f6aa219030603b552de00ba2fbb3fc10ecac3c9845128912c97c9db6c06d7b295641578a7e306972bf78b798daba18fee",
+                    "signedUrlExpirationTime": 1711558509475
                 },
                 "65f86d89a1bc6c1ab9ad4790": {
                     "name": "Screenshot 2024-02-13 220635.png",
@@ -37,8 +51,8 @@
                     "createdAt": "2024-02-14T03:10:51.046Z",
                     "updatedAt": "2024-02-14T03:10:51.046Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aea2cb1030ae7e111f55bf/projects/65f86d89a1bc6c1ab9ad478a/assets/65f86d89a1bc6c1ab9ad4790?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240319%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240319T211735Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=88a2e123522679c407fac72ff762617801d3490ec4f533cb03066e95584fce33b3e9a7e7edce0368b8e2adde4281fe1ca9cb807d02eea1a429be267f1e3859b642695924b19c702ca275649fc4eefae999e9bacb64ed9fd15f393ebfa81a82e8f98a537572f33c09d2d625d986bad4bced2f378d249c81067d41c2bb1a190d06730badbe7bfe0f1c53763885f3ab932232899ab434c807878aff196cc86f477faef3994f9ff910384e8d2a0c841fa05488f02cbce8f65f08ee3e6f3a41a9f166b6fd70d3649ce79c287a5bd4ae2177fb784f223bb3b478b32485721452a172001aa9ef05c15c02edd5f6239f0453bdfe6ce8f7c0149bc819b37edbc93abd4668",
-                    "signedUrlExpirationTime": 1711055855663
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aea2cb1030ae7e111f55bf/projects/65f86d89a1bc6c1ab9ad478a/assets/65f86d89a1bc6c1ab9ad4790?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240325%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240325T165509Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=a80043b6c1a7f787ff426f76e96213caefa1e5365bf2046bf853a9258f7a735f551c62b2e98aca71f84094ad25cb95f9a073a88b3d8b3d8d65c2a991ad2a8a52aaa7c3f3ee8b0c90ddebcd01723bfb1044499b6f206b8133015479b32c6f79ac3641705488ded033115759691216ba920726687de7229f91afcc0ad252f40c769903e46a60258ad7fe4c7b51bae74b4a5bb7361ff85e43aa0b2ba063e0a8dc8e70afb9c82ffdcb9e4d4263d0604f58a96481bd0551613a0941ba10f97d242f3541592d18a99638f344201b615260cebdb4f6c06d2aa3c5352b910f2bf12fe927be05425c6e629f2383231402958a911cdd913d8582e7525155d903f250723680",
+                    "signedUrlExpirationTime": 1711558509479
                 }
             },
             "backendUpgradeVersion": 24,
@@ -83,6 +97,28 @@
                                 "hint": "Describe why your app uses photos."
                             }
                         ]
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "012ff78c-c118-4925-b1dd-f8863aeb5001": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "432941d5-38ac-4192-96eb-5e174ee788a3": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
                     },
                     "enabledFeatures": {
                         "location": true,
@@ -180,9 +216,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSLocationWhenInUseUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -228,9 +262,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSLocationWhenInUseUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -254,7 +286,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "4",
+            "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
@@ -325,6 +357,36 @@
                     "name": "Location_Lat",
                     "screenId": "432941d5-38ac-4192-96eb-5e174ee788a3"
 >>>>>>> Stashed changes
+                },
+                "b4081780-e725-4bbb-b36f-32c039b83afb": {
+                    "scope": "APP",
+                    "name": "WeatherAPIURL",
+                    "screenId": "012ff78c-c118-4925-b1dd-f8863aeb5001"
+                },
+                "9ceece52-f7fe-4258-8696-60808893377b": {
+                    "scope": "APP",
+                    "name": "lat",
+                    "screenId": "012ff78c-c118-4925-b1dd-f8863aeb5001"
+                },
+                "cf6f1b1a-2933-46c6-97b6-1f3e7ebfb933": {
+                    "scope": "APP",
+                    "name": "lon",
+                    "screenId": "012ff78c-c118-4925-b1dd-f8863aeb5001"
+                },
+                "5c585b1b-6637-4139-832b-6e380cf336e2": {
+                    "scope": "APP",
+                    "name": "WeatherAPIKey",
+                    "screenId": "012ff78c-c118-4925-b1dd-f8863aeb5001"
+                },
+                "d3452041-20e6-412d-bda2-2fe7bd895009": {
+                    "scope": "APP",
+                    "name": "response",
+                    "screenId": "012ff78c-c118-4925-b1dd-f8863aeb5001"
+                },
+                "c18db3c8-b5e8-481b-91a4-e4fb5e4d75bb": {
+                    "scope": "APP",
+                    "name": "lat",
+                    "screenId": "012ff78c-c118-4925-b1dd-f8863aeb5001"
                 }
             },
             "defaultDesignerDevice": "PHONE",
