@@ -85,6 +85,7 @@
                     "top": "7.142055803153111%",
                     "display": "flex"
                 },
+                "capInsets": {},
                 "ParentId": "097da365-9b51-4f47-8461-fada73c2eca6",
                 "position": "absolute",
                 "edgeOffsets": 23

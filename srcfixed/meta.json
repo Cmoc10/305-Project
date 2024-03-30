@@ -341,6 +341,7 @@
                         "iap": false
                     }
                 },
+                "32090dbb-e88c-4d89-b6ec-2fa325c69399": {},
                 "f91a39f3-9312-477c-9b9b-14803449b6ab": {
                     "xml": "",
                     "permissions": {
@@ -457,6 +458,7 @@
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
                             "NSPhotoLibraryUsageDescription": ""
+                            "NSLocationWhenInUseUsageDescription": ""
                         }
                     }
                 },
@@ -506,6 +508,7 @@
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
                             "NSPhotoLibraryUsageDescription": ""
+                            "NSLocationWhenInUseUsageDescription": ""
                         }
                     }
                 },

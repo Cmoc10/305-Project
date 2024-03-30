@@ -13,3 +13,5 @@ Orange: #FF753B
 Sky Blue: #07AFC6
 Cyan: #43FFF2
 Yellow: #FFC874
+
+Font: Oswald

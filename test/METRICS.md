@@ -3,3 +3,4 @@
 * DAU - Google Analytics
 * Adoption - Firebase user sign up rate
 * Retention - Google Analytics
+* CTR - (Number of Clicks / Number of Views) * 100
