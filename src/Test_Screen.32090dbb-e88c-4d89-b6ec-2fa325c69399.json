@@ -1,4 +1,5 @@
 {
+    "id": "32090dbb-e88c-4d89-b6ec-2fa325c69399",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -38,22 +39,133 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
-        "TabNavigatorIcon": {},
-        "DrawerNavigationOptions": {},
-        "StackNavigationOptions": {
-            "headerStyle": {}
-        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
-        "isSimple": true,
-        "navigationOptions": {
-            "headerStyle": {}
-        },
-        "tabNavigationOptions": {}
+        "isSimple": true
     },
     "children": [
+        {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Submit",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "Font": "",
+                "CustomFont": "",
+                "BackgroundColor": "rgba(7, 175, 198, 1)",
+                "Height": 49,
+                "Width": 311,
+                "Visible": true,
+                "X": 43,
+                "Y": 363,
+                "RelativeX": 43,
+                "RelativeY": 363,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "44.799993896484374%",
+                    "top": "54.26245007379123%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "32090dbb-e88c-4d89-b6ec-2fa325c69399",
+                "position": "absolute",
+                "edgeOffsets": 363
+            },
+            "children": [],
+            "id": "54a53237-cc92-409b-b6e5-f2d69b016f78",
+            "thunkableVersion": 450,
+            "name": "Button9"
+        },
+        {
+            "type": "Label",
+            "translatedName": "Label",
+            "reactType": "Text",
+            "properties": {
+                "Text": "0    1    2    3    4      5     6    7     8     9    10",
+                "FontSize": 18,
+                "Font": "",
+                "CustomFont": "",
+                "LineHeight": 1,
+                "Color": "rgba(0, 0, 0, 1)",
+                "Height": 60,
+                "Width": 339,
+                "Visible": true,
+                "X": 19,
+                "Y": 285,
+                "RelativeX": 19,
+                "RelativeY": 285,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "color": "rgba(0, 0, 0, 1)",
+                    "fontSize": 18,
+                    "fontStyle": "normal",
+                    "textShadowOffset": {},
+                    "letterSpacing": 0,
+                    "textDecorationLine": "none",
+                    "textDecorationStyle": "solid",
+                    "textDecorationColor": "rgba(0, 0, 0, 1)",
+                    "writingDirection": "auto",
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "flexWrap": "wrap",
+                    "borderWidth": 0,
+                    "borderRadius": 0,
+                    "borderColor": "rgba(236, 237, 237, 1)",
+                    "borderStyle": "solid",
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "13.007401529947916%",
+                    "top": "39.419871363146555%",
+                    "lineHeight": 1,
+                    "display": "flex"
+                },
+                "ParentId": "32090dbb-e88c-4d89-b6ec-2fa325c69399",
+                "position": "absolute",
+                "edgeOffsets": 285,
+                "children": "0    1    2    3    4      5     6    7     8     9    10"
+            },
+            "children": [],
+            "id": "f014978f-075b-4c26-82bd-0653fa2002ea",
+            "thunkableVersion": 450,
+            "name": "Label9"
+        },
         {
             "type": "AdMobBanner",
             "label": "AdMob Banner",
@@ -257,7 +369,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -339,8 +450,8 @@
                     "top": "35.417918787188434%",
                     "display": "flex"
                 },
-                "minimumTrackTintColor": "rgba(93, 122, 252, 100)",
-                "thumbTintColor": "rgba(93, 122, 252, 100)",
+                "minimumTrackTintColor": "rgba(7, 175, 198, 1)",
+                "thumbTintColor": "rgba(80, 227, 194, 1)",
                 "ParentId": "32090dbb-e88c-4d89-b6ec-2fa325c69399",
                 "position": "absolute",
                 "edgeOffsets": 240.00000000000003
@@ -351,7 +462,6 @@
             "name": "Slider1"
         }
     ],
-    "id": "32090dbb-e88c-4d89-b6ec-2fa325c69399",
     "thunkableVersion": 449,
     "name": "Test_Screen"
 }

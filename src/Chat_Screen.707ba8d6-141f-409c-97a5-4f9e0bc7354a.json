@@ -1,4 +1,5 @@
 {
+    "id": "707ba8d6-141f-409c-97a5-4f9e0bc7354a",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -38,20 +39,11 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
-        "TabNavigatorIcon": {},
-        "DrawerNavigationOptions": {},
-        "StackNavigationOptions": {
-            "headerStyle": {}
-        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
-        "isSimple": true,
-        "navigationOptions": {
-            "headerStyle": {}
-        },
-        "tabNavigationOptions": {}
+        "isSimple": true
     },
     "children": [
         {
@@ -126,7 +118,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 16,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -279,7 +270,6 @@
             "name": "Web_Viewer1"
         }
     ],
-    "id": "707ba8d6-141f-409c-97a5-4f9e0bc7354a",
     "thunkableVersion": 448,
     "name": "Chat_Screen"
 }
