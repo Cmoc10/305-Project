@@ -50,6 +50,61 @@
     },
     "children": [
         {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Forgot Password?",
+                "TextColor": "rgba(7, 175, 198, 1)",
+                "FontSize": 16,
+                "Font": "Oswald",
+                "CustomFont": "",
+                "BackgroundColor": "rgba(0, 0, 0, 0)",
+                "Height": 26,
+                "Width": 125,
+                "Visible": false,
+                "X": 240,
+                "Y": 234,
+                "RelativeX": 240,
+                "RelativeY": 234,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "29.991667072889573%",
+                    "top": "64.29126946543406%",
+                    "display": "none"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "097da365-9b51-4f47-8461-fada73c2eca6",
+                "position": "absolute",
+                "edgeOffsets": 234
+            },
+            "children": [],
+            "id": "b2c72899-0534-46f5-a932-a60a210d329b",
+            "thunkableVersion": 450,
+            "bindings": null,
+            "name": "forgot_butt"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
