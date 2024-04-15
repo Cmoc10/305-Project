@@ -18,10 +18,10 @@
 </head>
 <body>
     <header>
-        <div style="background-color: #f2f2f2; padding: 10px;">
+        <div style="background-color: #0077be; padding: 10px;"> <!-- Changed background color to ocean blue -->
             <h1>Welcome to Wavy</h1>
         </div>
-        <img src="https://github.com/Cmoc10/Wavy-305/blob/main/docs/wavy_logo.png" alt="Wavy App Icon">
+        <img src="wavy_logo.png" alt="Wavy App Icon">
         <p>
             Introducing Wavy - your ultimate companion for staying ahead of the weather curve! With Wavy, you can effortlessly track the forecast, tide data, and even local hazards right from the palm of your hand. Navigate the waves of uncertainty with confidence as Wavy provides you with up-to-the-minute weather updates, ensuring you're never caught off guard by sudden changes. But Wavy doesn't stop there – it goes above and beyond to keep you informed and safe, with its intuitive hazard pins feature, you can easily identify potential dangers in your area. Wavy fosters community engagement with its unique local chat screen, allowing users to share real-time weather updates, tips, and insights with fellow users. Don't let unpredictable weather dampen your plans – download Wavy today and experience the future of weather tracking firsthand.
         </p>
@@ -46,10 +46,47 @@
         <section>
             <section>
                 <h2>Screenshots</h2>
-                <div>
+                <div id="slideshow">
                     <h3>Phone Screenshots</h3>
-                    <img src="placeholder_link_to_phone_screenshots" alt="Phone Screenshots">
+                    <img class="slide" src="map_screenshot.png" alt="Phone Screenshot 1">
+                    <img class="slide" src="beaches_screenshot.png" alt="Phone Screenshot 2">
+                    <img class="slide" src="weather_screenshot.png" alt="Phone Screenshot 3">
                 </div>
+
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                        var slides = document.getElementsByClassName("slide");
+                        for (var i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) {
+                            slideIndex = 1;
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        setTimeout(showSlides, 7000); // Change slide every 2 seconds
+                    }
+
+                    // Add event listeners for arrow buttons
+                    document.getElementById("prevButton").addEventListener("click", function() {
+                        slideIndex--;
+                        if (slideIndex < 1) {
+                            slideIndex = slides.length;
+                        }
+                        showSlides();
+                    });
+
+                    document.getElementById("nextButton").addEventListener("click", function() {
+                        slideIndex++;
+                        if (slideIndex > slides.length) {
+                            slideIndex = 1;
+                        }
+                        showSlides();
+                    });
+                </script>
                 <div>
                     <h3>Tablet Screenshots</h3>
                     <img src="placeholder_link_to_tablet_screenshots" alt="Tablet Screenshots">
