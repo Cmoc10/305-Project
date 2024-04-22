@@ -708,7 +708,7 @@
             "reactType": "Text",
             "properties": {
                 "Text": "",
-                "FontSize": 30,
+                "FontSize": 25,
                 "Font": "Oswald",
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -723,7 +723,7 @@
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(255, 255, 255, 1)",
-                    "fontSize": 30,
+                    "fontSize": 25,
                     "fontStyle": "normal",
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
