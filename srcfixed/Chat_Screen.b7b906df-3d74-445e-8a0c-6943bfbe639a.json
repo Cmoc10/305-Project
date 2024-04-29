@@ -71,7 +71,7 @@
                 "RelativeY": -5,
                 "ResizeMode": "STRETCH",
                 "Layout": "column",
-                "Justification": "flex-start",
+                "Justification": "center",
                 "Alignment": "center",
                 "Scrollable": false,
                 "style": {
@@ -96,7 +96,7 @@
                     "top": "41.55361401539921%",
                     "display": "flex",
                     "flexDirection": "column",
-                    "justifyContent": "flex-start",
+                    "justifyContent": "center",
                     "alignItems": "center"
                 },
                 "ScrollBarVisible": true,
@@ -373,7 +373,7 @@
                     "properties": {
                         "Height": "90%",
                         "Width": "Fill container",
-                        "Visible": false,
+                        "Visible": true,
                         "X": null,
                         "Y": null,
                         "RelativeX": null,
@@ -400,7 +400,7 @@
                                 "width": 0,
                                 "height": 0
                             },
-                            "display": "none",
+                            "display": "flex",
                             "flexDirection": "row",
                             "justifyContent": "center",
                             "alignItems": "flex-start"
@@ -736,54 +736,13 @@
                     "name": "Chats/Messages1"
                 },
                 {
-                    "type": "Loading Icon",
-                    "translatedName": "Loading Icon",
-                    "reactType": "ActivityIndicator",
-                    "properties": {
-                        "animating": true,
-                        "color": "rgb(155,155,155)",
-                        "size": 45,
-                        "hidesWhenStopped": true,
-                        "Height": "Fill container",
-                        "Width": "Fill container",
-                        "Visible": true,
-                        "X": null,
-                        "Y": null,
-                        "ResizeMode": "STRETCH",
-                        "style": {
-                            "marginTop": 0,
-                            "marginBottom": 0,
-                            "marginLeft": 0,
-                            "marginRight": 0,
-                            "paddingTop": 0,
-                            "paddingBottom": 0,
-                            "paddingLeft": 0,
-                            "paddingRight": 0,
-                            "shadowColor": "rgba(0, 0, 0, 0)",
-                            "shadowOpacity": 0,
-                            "scaledShadowOpacity": 0,
-                            "shadowRadius": 0,
-                            "shadowOffset": {
-                                "width": 0,
-                                "height": 0
-                            },
-                            "display": "flex"
-                        },
-                        "ParentId": "b7b906df-3d74-445e-8a0c-6943bfbe639a"
-                    },
-                    "children": [],
-                    "id": "f039e3e1-f4ef-4200-bde5-5a1b455144f1",
-                    "thunkableVersion": 453,
-                    "name": "Loading_Icon3"
-                },
-                {
                     "type": "ScrollView",
                     "translatedName": "Container",
                     "reactType": "ScrollView",
                     "properties": {
                         "Height": "8%",
                         "Width": "Fill container",
-                        "Visible": false,
+                        "Visible": true,
                         "X": null,
                         "Y": null,
                         "RelativeX": null,
@@ -812,7 +771,7 @@
                             },
                             "flex": 1,
                             "alignSelf": "stretch",
-                            "display": "none",
+                            "display": "flex",
                             "flexDirection": "row",
                             "justifyContent": "center",
                             "alignItems": "center",

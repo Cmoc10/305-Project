@@ -160,8 +160,8 @@
                         "Height": "8%",
                         "Width": "Fill container",
                         "Visible": true,
-                        "X": 0,
-                        "Y": 0,
+                        "X": null,
+                        "Y": null,
                         "RelativeX": null,
                         "RelativeY": null,
                         "ResizeMode": "STRETCH",
@@ -259,7 +259,7 @@
                     "properties": {
                         "Height": "Fill container",
                         "Width": "Fill container",
-                        "Visible": false,
+                        "Visible": true,
                         "X": null,
                         "Y": null,
                         "RelativeX": null,
@@ -286,7 +286,7 @@
                                 "width": 0,
                                 "height": 0
                             },
-                            "display": "none",
+                            "display": "flex",
                             "flexDirection": "row",
                             "justifyContent": "center",
                             "alignItems": "flex-start"
@@ -455,47 +455,6 @@
                     "id": "9b205c03-caca-426a-a43a-4a4cd8047b83",
                     "thunkableVersion": 452,
                     "name": "Chats/Messages"
-                },
-                {
-                    "type": "Loading Icon",
-                    "translatedName": "Loading Icon",
-                    "reactType": "ActivityIndicator",
-                    "properties": {
-                        "animating": true,
-                        "color": "rgb(155,155,155)",
-                        "size": 45,
-                        "hidesWhenStopped": true,
-                        "Height": "Fill container",
-                        "Width": "Fill container",
-                        "Visible": true,
-                        "X": null,
-                        "Y": null,
-                        "ResizeMode": "STRETCH",
-                        "style": {
-                            "marginTop": 0,
-                            "marginBottom": 0,
-                            "marginLeft": 0,
-                            "marginRight": 0,
-                            "paddingTop": 0,
-                            "paddingBottom": 0,
-                            "paddingLeft": 0,
-                            "paddingRight": 0,
-                            "shadowColor": "rgba(0, 0, 0, 0)",
-                            "shadowOpacity": 0,
-                            "scaledShadowOpacity": 0,
-                            "shadowRadius": 0,
-                            "shadowOffset": {
-                                "width": 0,
-                                "height": 0
-                            },
-                            "display": "flex"
-                        },
-                        "ParentId": "707ba8d6-141f-409c-97a5-4f9e0bc7354a"
-                    },
-                    "children": [],
-                    "id": "bb04d833-bb0b-4564-9b7e-09b84ce594c3",
-                    "thunkableVersion": 453,
-                    "name": "Loading_Icon2"
                 },
                 {
                     "type": "ScrollView",
