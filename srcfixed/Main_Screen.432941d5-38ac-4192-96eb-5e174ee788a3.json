@@ -52,24 +52,24 @@
             "translatedName": "Group",
             "reactType": "ViewWithProps",
             "properties": {
-                "Height": 39,
-                "Width": 325,
+                "Height": 56,
+                "Width": 322,
                 "Visible": true,
-                "X": 33,
-                "Y": 552,
-                "RelativeX": 33,
-                "RelativeY": 552,
+                "X": 22,
+                "Y": 534,
+                "RelativeX": 22,
+                "RelativeY": 534,
                 "ResizeMode": "STRETCH",
                 "BackgroundPictureResizeMode": "contain",
                 "Position": "Relative to Screen",
                 "TouchOpacity": 20,
                 "ParentId": "432941d5-38ac-4192-96eb-5e174ee788a3",
                 "position": "absolute",
-                "edgeOffsets": 552,
+                "edgeOffsets": 534.9999999999999,
                 "style": {
                     "position": "absolute",
-                    "left": "38.320003255208334%",
-                    "top": "76.79722913201603%",
+                    "left": "16.533333333333335%",
+                    "top": "70.6428035982009%",
                     "display": "flex"
                 },
                 "resizeMode": "contain"
@@ -85,13 +85,13 @@
                         "Font": "",
                         "CustomFont": "",
                         "BackgroundColor": "rgba(93, 122, 252, 100)",
-                        "Height": 45,
-                        "Width": 99,
+                        "Height": 48,
+                        "Width": 98,
                         "Visible": true,
                         "X": 237,
-                        "Y": 546,
-                        "RelativeX": 204,
-                        "RelativeY": -6,
+                        "Y": 538,
+                        "RelativeX": 215,
+                        "RelativeY": 4,
                         "ResizeMode": "STRETCH",
                         "style": {
                             "marginTop": 0,
@@ -112,8 +112,8 @@
                                 "height": 0
                             },
                             "position": "absolute",
-                            "left": "23.33333740234375%",
-                            "top": "77.87668665667167%",
+                            "left": "9.6%",
+                            "top": "79.03860569715143%",
                             "display": "flex"
                         },
                         "FontBold": false,
@@ -122,13 +122,13 @@
                         "Disabled": false,
                         "ParentId": "432941d5-38ac-4192-96eb-5e174ee788a3",
                         "position": "absolute",
-                        "edgeOffsets": 546
+                        "edgeOffsets": 538
                     },
                     "children": [],
-                    "id": "d64d4249-3c65-4965-a8bb-596b80fc82ca",
-                    "thunkableVersion": 453,
+                    "id": "36a4f7e7-321c-44c8-9e7a-d0c678fc1ffb",
+                    "thunkableVersion": 454,
                     "bindings": null,
-                    "name": "Not_Button"
+                    "name": "Not There"
                 },
                 {
                     "type": "Button",
@@ -140,13 +140,13 @@
                         "Font": "",
                         "CustomFont": "",
                         "BackgroundColor": "rgba(93, 122, 252, 100)",
-                        "Height": 45,
-                        "Width": 99,
+                        "Height": 48,
+                        "Width": 98,
                         "Visible": true,
                         "X": 33,
-                        "Y": 546,
-                        "RelativeX": 0,
-                        "RelativeY": -6,
+                        "Y": 536,
+                        "RelativeX": 11,
+                        "RelativeY": 2,
                         "ResizeMode": "STRETCH",
                         "style": {
                             "marginTop": 0,
@@ -167,8 +167,8 @@
                                 "height": 0
                             },
                             "position": "absolute",
-                            "left": "23.33333740234375%",
-                            "top": "77.87668665667167%",
+                            "left": "9.6%",
+                            "top": "79.03860569715143%",
                             "display": "flex"
                         },
                         "FontBold": false,
@@ -177,16 +177,16 @@
                         "Disabled": false,
                         "ParentId": "432941d5-38ac-4192-96eb-5e174ee788a3",
                         "position": "absolute",
-                        "edgeOffsets": 546
+                        "edgeOffsets": 536.9999999999998
                     },
                     "children": [],
-                    "id": "c9e824f2-6c58-46b7-a67e-fcb83745bffc",
-                    "thunkableVersion": 453,
-                    "name": "Still_Button"
+                    "id": "1714e0ee-066e-4eb7-8e65-15c69c23038c",
+                    "thunkableVersion": 454,
+                    "name": "Still There"
                 }
             ],
-            "id": "87739926-ad9c-483f-8bba-cc1d20afe34f",
-            "thunkableVersion": 453,
+            "id": "9aaccd1b-e8b5-4071-9952-83011c7e59f0",
+            "thunkableVersion": 454,
             "name": "Group4"
         },
         {
