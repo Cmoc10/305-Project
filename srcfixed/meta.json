@@ -621,7 +621,7 @@
                     }
                 ]
             },
-            "figmaComponents": {},
+            "figmaComponents": null,
             "description": null,
             "icon": null,
             "projectName": "Wavy_1Chat_Screen",
