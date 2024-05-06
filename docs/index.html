@@ -21,7 +21,7 @@
         <div style="background-color: #0077be; padding: 10px;"> <!-- Changed background color to ocean blue -->
             <h1>Welcome to Wavy</h1>
         </div>
-        <img src="wavy_logo.png" alt="Wavy App Icon">
+        <img src="wavy_logo.png" alt="Wavy App Icon" width = 100px>
         <p>
             Introducing Wavy - your ultimate companion for staying ahead of the weather curve! With Wavy, you can effortlessly track the forecast, tide data, and even local hazards right from the palm of your hand. Navigate the waves of uncertainty with confidence as Wavy provides you with up-to-the-minute weather updates, ensuring you're never caught off guard by sudden changes. But Wavy doesn't stop there – it goes above and beyond to keep you informed and safe, with its intuitive hazard pins feature, you can easily identify potential dangers in your area. Wavy fosters community engagement with its unique local chat screen, allowing users to share real-time weather updates, tips, and insights with fellow users. Don't let unpredictable weather dampen your plans – download Wavy today and experience the future of weather tracking firsthand.
         </p>
@@ -31,17 +31,17 @@
         <section>
             <h2>Local Map</h2>
             <p>Local map that makes it easy to see hazards.</p>
-            <img src="placeholder_link_to_feature_graphic">Feature Graphic</a>
+            <img src="standard_view.jpg" width= 20% alt = "Feature Graphic"></a>
         </section>
         <section>
             <h2>Beach Forecast</h2>
             <p>Display the forecast for the upcoming days here.</p>
-            <img src="placeholder_link_to_feature_graphic">Feature Graphic</a>
+            <img src="weather_screen.jpg" width = 20% alt = "Feature Graphic"></a>
         </section>
         <section>
             <h2>Beach Chat</h2>
             <p>Users can chat with other users in the same area.</p>
-            <img src="placeholder_link_to_feature_graphic">Feature Graphic</a>
+            <img src="chat_screen.png" width= 20% alt = "Feature Graphic"></a>
         </section>
         <section>
             <section>
@@ -51,16 +51,45 @@
                     <img class="slide" src="map_screenshot.png" alt="Phone Screenshot 1">
                     <img class="slide" src="beaches_screenshot.png" alt="Phone Screenshot 2">
                     <img class="slide" src="weather_screenshot.png" alt="Phone Screenshot 3">
+                    <img class="slide" src="weather_screen.jpg" alt="Image 4">
+                    <img class="slide" src="standard_view.jpg" alt="Image 5">
+                    <img class="slide" src="Hazard-pins.jpg" alt="Image 6">
+                    <img class="slide" src="chat_room.jpg" alt="Image 7">
+                    <img class="slide" src="menu-screen.png" alt="Image 8">
                 </div>
 
                 <style>
                     .slide {
                         display: block;
                         margin: 0 auto;
-                        width: 40%; /* Added width property to scale the images to 25% of the page */
-                        height: 60%;
+                        width: 20%; /* Added width property to scale the images to 25% of the page */
+                        height: 30%;
+                    }
+
+                    .grid {
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr); /* Create a grid with 4 columns */
+                        gap: 5px; /* Add a gap of 10px between grid items */
+                        margin-top: 10px; /* Add some top margin to the grid */
+                    }
+
+                    .grid img {
+                        width: 40%; /* Updated width to 10% */
+                        height: 60%; /* Updated height to 20% */
+                        cursor: pointer; /* Add a pointer cursor to the images */
                     }
                 </style>
+
+                <div class="grid">
+                    <img src="beaches_screenshot.png" alt="Image 1">
+                    <img src="map_screenshot.png" alt="Image 2">
+                    <img src="weather_screenshot.png" alt="Image 3">
+                    <img src="weather_screen.jpg" alt="Image 4">
+                    <img src="standard_view.jpg" alt="Image 5">
+                    <img src="Hazard-pins.jpg" alt="Image 6">
+                    <img src="chat_room.jpg" alt="Image 7">
+                    <img src="menu-screen.png" alt="Image 8">
+                </div>
 
                 <script>
                     var slideIndex = 0;
@@ -78,33 +107,8 @@
                         slides[slideIndex - 1].style.display = "block";
                         setTimeout(showSlides, 7000); // Change slide every 2 seconds
                     }
-
-                    // Add event listeners for arrow buttons
-                    document.getElementById("prevButton").addEventListener("click", function() {
-                        slideIndex--;
-                        if (slideIndex < 1) {
-                            slideIndex = slides.length;
-                        }
-                        showSlides();
-                    });
-
-                    document.getElementById("nextButton").addEventListener("click", function() {
-                        slideIndex++;
-                        if (slideIndex > slides.length) {
-                            slideIndex = 1;
-                        }
-                        showSlides();
-                    });
                 </script>
-
-                <!-- Add previous and next buttons -->
-                <button id="prevButton">Previous</button>
-                <button id="nextButton">Next</button>
             </section>
-        </section>
-                    </script>
-                </section>
-                    </script>
                 <div>
                     <h3>Tablet Screenshots</h3>
                     <img src="placeholder_link_to_tablet_screenshots" alt="Tablet Screenshots">
@@ -116,6 +120,12 @@
                 <h2>Showcase</h2>
                 <video src="path_to_video_file.mp4" controls></video>
             </section>
+        </section>
+        <section>
+            <h2>Free Web Test</h2>
+            <a href="page2.html">
+                <img id="wavy-button" src="wavy-button.png" alt="Download Wavy Button" style="width: 40%;">
+            </a>
         </section>
     </main>
 
