@@ -51,14 +51,14 @@
             "translatedName": "Image",
             "properties": {
                 "Picture": "wavy app logo f.png",
-                "resizeMode": "stretch",
-                "Height": 61,
-                "Width": 70,
+                "resizeMode": "contain",
+                "Height": 159,
+                "Width": 166,
                 "Visible": true,
-                "X": 0,
-                "Y": 606,
-                "RelativeX": 0,
-                "RelativeY": 606,
+                "X": 111,
+                "Y": 31,
+                "RelativeX": 111,
+                "RelativeY": 31,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -78,19 +78,18 @@
                         "height": 0
                     },
                     "position": "absolute",
-                    "left": "26.853336588541666%",
-                    "top": "11.789731965072152%",
+                    "left": "34.000004069010416%",
+                    "top": "34.66828902443309%",
                     "display": "flex"
                 },
-                "ParentId": "432941d5-38ac-4192-96eb-5e174ee788a3",
+                "ParentId": "972704d9-4258-4830-8f07-471e39c39628",
                 "position": "absolute",
-                "edgeOffsets": 604
+                "edgeOffsets": 31
             },
             "children": [],
-            "id": "c03ac03a-7985-40a9-8553-c6c6f0a80a92",
-            "thunkableVersion": 450,
-            "bindings": null,
-            "name": "logo_main3"
+            "id": "48c25393-e087-4edb-bf9b-9f32f812a13c",
+            "thunkableVersion": 454,
+            "name": "Image10"
         },
         {
             "type": "Button",
@@ -146,36 +145,6 @@
             "thunkableVersion": 450,
             "bindings": null,
             "name": "Return_butt_s"
-        },
-        {
-            "type": "AdMobBanner",
-            "label": "AdMob Banner",
-            "translatedName": "AdMob Banner",
-            "properties": {
-                "Visible": true,
-                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
-                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
-                "TestMode": true,
-                "Width": 375,
-                "Height": 32,
-                "X": 0,
-                "ParentId": "972704d9-4258-4830-8f07-471e39c39628",
-                "Y": 634,
-                "RelativeX": 0,
-                "RelativeY": 634,
-                "position": "absolute",
-                "edgeOffsets": 634,
-                "style": {
-                    "position": "absolute",
-                    "left": "26.453340657552083%",
-                    "top": "81.3605770357009%",
-                    "display": "flex"
-                }
-            },
-            "children": [],
-            "id": "f2ed1a2d-53a9-4e5f-9e5c-c86092dac6ce",
-            "thunkableVersion": 446,
-            "name": "AdMob_Banner2"
         },
         {
             "type": "Button",
@@ -349,6 +318,51 @@
             "id": "a7a74786-0930-4cc8-bfe0-1b18b82d075f",
             "thunkableVersion": 444,
             "name": "Sign Out"
+        },
+        {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "Picture": "hawaii-beach-summer-art-wallpaper.jpg",
+                "resizeMode": "cover",
+                "Height": 666,
+                "Width": 374,
+                "Visible": true,
+                "X": 0.800000011920929,
+                "Y": 0.800000011920929,
+                "RelativeX": 0.800000011920929,
+                "RelativeY": 0.800000011920929,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "22.000004069010416%",
+                    "top": "24.623311513188717%",
+                    "display": "flex"
+                },
+                "ParentId": "972704d9-4258-4830-8f07-471e39c39628",
+                "position": "absolute",
+                "edgeOffsets": 0.800000011920929
+            },
+            "children": [],
+            "id": "017e1720-8d68-4c47-9807-ba1539be6d13",
+            "thunkableVersion": 454,
+            "name": "Image9"
         }
     ],
     "thunkableVersion": 444,

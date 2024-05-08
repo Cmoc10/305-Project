@@ -50,66 +50,11 @@
     },
     "children": [
         {
-            "type": "Button",
-            "translatedName": "Button",
-            "properties": {
-                "Text": "Forgot Password?",
-                "TextColor": "rgba(7, 175, 198, 1)",
-                "FontSize": 16,
-                "Font": "Oswald",
-                "CustomFont": "",
-                "BackgroundColor": "rgba(0, 0, 0, 0)",
-                "Height": 26,
-                "Width": 125,
-                "Visible": false,
-                "X": 240,
-                "Y": 234,
-                "RelativeX": 240,
-                "RelativeY": 234,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "borderRadius": 15,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "29.991667072889573%",
-                    "top": "64.29126946543406%",
-                    "display": "none"
-                },
-                "FontBold": false,
-                "FontItalic": false,
-                "Raised": false,
-                "Disabled": false,
-                "ParentId": "097da365-9b51-4f47-8461-fada73c2eca6",
-                "position": "absolute",
-                "edgeOffsets": 234
-            },
-            "children": [],
-            "id": "b2c72899-0534-46f5-a932-a60a210d329b",
-            "thunkableVersion": 450,
-            "bindings": null,
-            "name": "forgot_butt"
-        },
-        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
                 "Picture": "wavy app logo f.png",
-                "resizeMode": "stretch",
+                "resizeMode": "contain",
                 "Height": 96,
                 "Width": 141,
                 "Visible": true,
@@ -148,36 +93,6 @@
             "id": "fedf4f25-4a36-4b7b-b256-8aea5c820549",
             "thunkableVersion": 450,
             "name": "Image2"
-        },
-        {
-            "type": "AdMobBanner",
-            "label": "AdMob Banner",
-            "translatedName": "AdMob Banner",
-            "properties": {
-                "Visible": true,
-                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
-                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
-                "TestMode": true,
-                "Width": 375,
-                "Height": 32,
-                "X": 0,
-                "ParentId": "097da365-9b51-4f47-8461-fada73c2eca6",
-                "Y": 633,
-                "RelativeX": 0,
-                "RelativeY": 633,
-                "position": "absolute",
-                "edgeOffsets": 633,
-                "style": {
-                    "position": "absolute",
-                    "left": "12.053340657552083%",
-                    "top": "82.70990237303224%",
-                    "display": "flex"
-                }
-            },
-            "children": [],
-            "id": "affad832-a1f3-43b1-9b3b-589aea6ad546",
-            "thunkableVersion": 446,
-            "name": "AdMob_Banner1"
         },
         {
             "type": "Label",
@@ -882,6 +797,51 @@
             "id": "7f7aae61-20d9-4c58-8b29-85ecce071897",
             "thunkableVersion": 444,
             "name": "Label1"
+        },
+        {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "Picture": "best-summer-beach-wallpaper.jpg",
+                "resizeMode": "cover",
+                "Height": 666,
+                "Width": 374,
+                "Visible": true,
+                "X": 0,
+                "Y": 0,
+                "RelativeX": 0,
+                "RelativeY": 0,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "26.266670735677085%",
+                    "top": "20.575335501194715%",
+                    "display": "flex"
+                },
+                "ParentId": "097da365-9b51-4f47-8461-fada73c2eca6",
+                "position": "absolute",
+                "edgeOffsets": 0
+            },
+            "children": [],
+            "id": "efac9f0c-34e0-4f4a-8d5f-d646daa2c706",
+            "thunkableVersion": 454,
+            "name": "Image3"
         }
     ],
     "thunkableVersion": 444,

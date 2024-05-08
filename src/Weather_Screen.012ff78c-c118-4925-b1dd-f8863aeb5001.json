@@ -49,52 +49,6 @@
     },
     "children": [
         {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
-                "Picture": "wavy app logo f.png",
-                "resizeMode": "stretch",
-                "Height": 61,
-                "Width": 70,
-                "Visible": true,
-                "X": 0,
-                "Y": 606,
-                "RelativeX": 0,
-                "RelativeY": 606,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "26.853336588541666%",
-                    "top": "11.789731965072152%",
-                    "display": "flex"
-                },
-                "ParentId": "432941d5-38ac-4192-96eb-5e174ee788a3",
-                "position": "absolute",
-                "edgeOffsets": 606
-            },
-            "children": [],
-            "id": "8f8ca24a-e9b2-49b4-9283-72a647ba5fa8",
-            "thunkableVersion": 450,
-            "bindings": null,
-            "name": "logo_main1"
-        },
-        {
             "type": "Group",
             "label": "Group",
             "translatedName": "Group",
@@ -708,7 +662,7 @@
             "reactType": "Text",
             "properties": {
                 "Text": "",
-                "FontSize": 30,
+                "FontSize": 25,
                 "Font": "Oswald",
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -723,7 +677,7 @@
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(255, 255, 255, 1)",
-                    "fontSize": 30,
+                    "fontSize": 25,
                     "fontStyle": "normal",
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
