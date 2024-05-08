@@ -160,8 +160,8 @@
                         "Height": "8%",
                         "Width": "Fill container",
                         "Visible": true,
-                        "X": null,
-                        "Y": null,
+                        "X": 0,
+                        "Y": 0,
                         "RelativeX": null,
                         "RelativeY": null,
                         "ResizeMode": "STRETCH",
@@ -259,7 +259,7 @@
                     "properties": {
                         "Height": "Fill container",
                         "Width": "Fill container",
-                        "Visible": true,
+                        "Visible": false,
                         "X": null,
                         "Y": null,
                         "RelativeX": null,
@@ -286,7 +286,7 @@
                                 "width": 0,
                                 "height": 0
                             },
-                            "display": "flex",
+                            "display": "none",
                             "flexDirection": "row",
                             "justifyContent": "center",
                             "alignItems": "flex-start"
@@ -360,7 +360,6 @@
                                             "color": "rgba(0, 0, 0, 1)",
                                             "fontSize": 20,
                                             "fontStyle": "normal",
-                                            "textShadowOffset": {},
                                             "letterSpacing": 0,
                                             "textDecorationLine": "none",
                                             "textDecorationStyle": "solid",
@@ -399,27 +398,24 @@
                                     "name": "Main Label/error"
                                 },
                                 {
-                                    "type": "List Viewer",
-                                    "translatedName": "Simple List",
-                                    "reactType": "ListView",
+                                    "type": "Button",
+                                    "translatedName": "Button",
                                     "properties": {
-                                        "TextItems": [],
-                                        "TextItemsColor": "rgba(0, 0, 0, 1)",
-                                        "TextItemsBackgroundColor": "rgba(0,0,0,0)",
-                                        "TextItemsFontSize": 18,
-                                        "ShowArrow": true,
-                                        "Height": "Fit contents",
+                                        "Text": "button",
+                                        "TextColor": "rgba(255, 255, 255, 1)",
+                                        "FontSize": 23,
+                                        "Font": "",
+                                        "CustomFont": "",
+                                        "BackgroundColor": "rgba(0, 0, 0, 0)",
+                                        "BackgroundPicture": "https://narragansettproperties.com/wp-content/uploads/2019/04/narragansettbeach.jpg",
+                                        "Height": "Fill container",
                                         "Width": "Fill container",
-                                        "Visible": true,
-                                        "X": -7,
-                                        "Y": 45,
-                                        "RelativeX": -7,
-                                        "RelativeY": 45,
+                                        "Visible": false,
+                                        "X": null,
+                                        "Y": null,
                                         "ResizeMode": "STRETCH",
-                                        "Justification": "center",
-                                        "Alignment": "center",
                                         "style": {
-                                            "marginTop": 0,
+                                            "marginTop": 5,
                                             "marginBottom": 0,
                                             "marginLeft": 0,
                                             "marginRight": 0,
@@ -427,6 +423,7 @@
                                             "paddingBottom": 0,
                                             "paddingLeft": 0,
                                             "paddingRight": 0,
+                                            "borderRadius": 15,
                                             "shadowColor": "rgba(0, 0, 0, 0)",
                                             "shadowOpacity": 0,
                                             "scaledShadowOpacity": 0,
@@ -435,21 +432,18 @@
                                                 "width": 0,
                                                 "height": 0
                                             },
-                                            "position": "absolute",
-                                            "left": "36.14498291015625%",
-                                            "top": "22.269473523928326%",
-                                            "display": "flex",
-                                            "justifyContent": "center",
-                                            "alignItems": "center"
+                                            "display": "none"
                                         },
-                                        "ParentId": "707ba8d6-141f-409c-97a5-4f9e0bc7354a",
-                                        "position": "absolute",
-                                        "edgeOffsets": 45
+                                        "FontBold": true,
+                                        "FontItalic": false,
+                                        "Raised": true,
+                                        "Disabled": false,
+                                        "ParentId": "707ba8d6-141f-409c-97a5-4f9e0bc7354a"
                                     },
                                     "children": [],
-                                    "id": "d1f58b50-44c2-4a6a-8f64-6c3d2612621f",
-                                    "thunkableVersion": 452,
-                                    "name": "Chat List"
+                                    "id": "e64fc77a-b33a-4c01-9000-130ab160385c",
+                                    "thunkableVersion": 453,
+                                    "name": "Beach Button"
                                 }
                             ],
                             "id": "d9a485cb-372f-4763-82d3-6d7b1bd9fc24",
@@ -460,6 +454,47 @@
                     "id": "9b205c03-caca-426a-a43a-4a4cd8047b83",
                     "thunkableVersion": 452,
                     "name": "Chats/Messages"
+                },
+                {
+                    "type": "Loading Icon",
+                    "translatedName": "Loading Icon",
+                    "reactType": "ActivityIndicator",
+                    "properties": {
+                        "animating": true,
+                        "color": "rgb(155,155,155)",
+                        "size": 45,
+                        "hidesWhenStopped": true,
+                        "Height": "Fill container",
+                        "Width": "Fill container",
+                        "Visible": true,
+                        "X": null,
+                        "Y": null,
+                        "ResizeMode": "STRETCH",
+                        "style": {
+                            "marginTop": 0,
+                            "marginBottom": 0,
+                            "marginLeft": 0,
+                            "marginRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "shadowColor": "rgba(0, 0, 0, 0)",
+                            "shadowOpacity": 0,
+                            "scaledShadowOpacity": 0,
+                            "shadowRadius": 0,
+                            "shadowOffset": {
+                                "width": 0,
+                                "height": 0
+                            },
+                            "display": "flex"
+                        },
+                        "ParentId": "707ba8d6-141f-409c-97a5-4f9e0bc7354a"
+                    },
+                    "children": [],
+                    "id": "bb04d833-bb0b-4564-9b7e-09b84ce594c3",
+                    "thunkableVersion": 453,
+                    "name": "Loading_Icon2"
                 },
                 {
                     "type": "ScrollView",
@@ -524,7 +559,6 @@
                                     "color": "rgba(0, 0, 0, 1)",
                                     "fontSize": 18,
                                     "fontStyle": "normal",
-                                    "textShadowOffset": {},
                                     "letterSpacing": 0,
                                     "textDecorationLine": "none",
                                     "textDecorationStyle": "solid",

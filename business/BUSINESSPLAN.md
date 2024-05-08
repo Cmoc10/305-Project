@@ -4,4 +4,4 @@ The Lean Canvas ideation process is a rapid and effective way to generate and va
 https://www.leancanvas.com/
 
 # Our Lean Canvas
-https://docs.google.com/presentation/d/1-zuQD5LYqAek608cSobYKdvaMhSjhRifIR3-AKssjsw/edit?usp=sharing 
+[Lean Canvas Final](https://docs.google.com/presentation/d/1mwRCc4_hNzAVBAcb3nsqIYMNzOkZuUCWjErOUd8ZtBc/edit?usp=sharing)
